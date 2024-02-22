@@ -99,11 +99,11 @@ export const texts = {
     },
     "footer": {
         "es": {
-            "copyright": "&copy; {new Date().getFullYear()} La Rosa De Los Vientos. Todos los derechos reservados.",
+            "copyright": "La Rosa De Los Vientos. Todos los derechos reservados.",
             "designedBy": "Diseñado por"
         },
         "en": {
-            "copyright": "&copy; {new Date().getFullYear()} La Rosa De Los Vientos. All rights reserved.",
+            "copyright": "La Rosa De Los Vientos. All rights reserved.",
             "designedBy": "Designed by"
         }
     },

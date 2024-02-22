@@ -6,9 +6,9 @@
     background-image: url('https://wepik.com/api/image/ai/9b61cfe5-8cbc-4b58-9855-cde99cb43109');
     background-size: cover;
     background-position: center;
-    animation: slideBackground 20s linear infinite;
+    animation: slideBackground 30s linear infinite;
     background-blend-mode: exclusion
-    /* Duración y repetición de la animación */
+        /* Duración y repetición de la animación */
 }
 
 
@@ -18,13 +18,23 @@
         /* Posición inicial del fondo */
     }
 
-    50% {
+    20% {
+        background-position: 30% 50%;
+        /* Posición inicial del fondo */
+    }
+
+    40% {
+        background-position: 70% 50%;
+        /* Posición final del fondo */
+    }
+
+    60% {
         background-position: 30% 50%;
         /* Posición inicial del fondo */
     }
 
     100% {
-        background-position: 70% 50%;
-        /* Posición final del fondo */
+        background-position: center;
+        /* Posición inicial del fondo */
     }
 }
