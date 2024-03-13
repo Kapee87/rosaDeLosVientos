@@ -2,7 +2,7 @@ import React from 'react'
 import { useLanguage } from '../contexts/languageContext'
 import { texts } from '../utils/allTexts'
 
-function FAQSection() {
+function Registration() {
     const { language } = useLanguage()
     return (
         <div className='mb-10' id='faq'>
@@ -25,4 +25,4 @@ function FAQSection() {
     )
 }
 
-export default FAQSection
+export default Registration

@@ -59,6 +59,306 @@ export const texts = {
             }
         ]
     },
+    "editorial": {
+        "title": {
+            "es": "Editorial Musical",
+            "en": "Music Publishing"
+        },
+        "items": [
+            {
+                "title": {
+                    "es": "Funciones",
+                    "en": "Functions"
+                },
+                "content": {
+                    "es": "Funciones Contenido en esp",
+                    "en": "Funciones Contenido en eng"
+                }
+            },
+            {
+                "title": {
+                    "es": "Tareas",
+                    "en": "Jobs"
+                },
+                "content": {
+                    "es": "Tareas Contenido en esp",
+                    "en": "Tareas Contenido en eng"
+                }
+            }, ,
+            {
+                "title": {
+                    "es": "Instituciones",
+                    "en": "Institutions"
+                },
+                "content": {
+                    "es": "Instituciones Contenido en esp",
+                    "en": "Instituciones Contenido en eng"
+                }
+            }, ,
+            {
+                "title": {
+                    "es": "Asesoramiento",
+                    "en": "Counseling"
+                },
+                "content": {
+                    "es": "Asesoramiento Contenido en esp",
+                    "en": "Asesoramiento Contenido en eng"
+                }
+            },
+        ]
+    },
+    "gestion": {
+        "title": {
+            "es": "Servicios de Gestión",
+            "en": "Management Services"
+        },
+        "items": [
+            {
+                "title": {
+                    "es": "Registros",
+                    "en": "Registration"
+                },
+                "content": {
+                    "es": "Registros Contenido en esp",
+                    "en": "Registros Contenido en eng"
+                }
+            },
+            {
+                "title": {
+                    "es": "Protección",
+                    "en": "Protection"
+                },
+                "content": {
+                    "es": "Proteccion Contenido en esp",
+                    "en": "Proteccion Contenido en eng"
+                }
+            }, ,
+            {
+                "title": {
+                    "es": "Recaudación",
+                    "en": "Royalty Collection"
+                },
+                "content": {
+                    "es": "Recaudación Contenido en esp",
+                    "en": "Recaudación Contenido en eng"
+                }
+            }, ,
+            {
+                "title": {
+                    "es": "Administración",
+                    "en": "Management"
+                },
+                "content": {
+                    "es": "Administración Contenido en esp",
+                    "en": "Administración Contenido en eng"
+                }
+            },
+            {
+                "title": {
+                    "es": "Explotación",
+                    "en": "Exploitation"
+                },
+                "content": {
+                    "es": "Explotación Contenido en esp",
+                    "en": "Explotación Contenido en eng"
+                }
+            },
+            {
+                "title": {
+                    "es": "Promoción",
+                    "en": "Advertising"
+                },
+                "content": {
+                    "es": "Promoción Contenido en esp",
+                    "en": "Promoción Contenido en eng"
+                }
+            },
+        ]
+    },
+    "intepretes": {
+        "title": {
+            "es": "Repertorios para intérpretes",
+            "en": "Repertoires for performers"
+        },
+        "sincronizacion": {
+            "title": {
+                "es": "Sincronización",
+                "en": "Synchronization"
+            },
+            "subcategory": [
+                {
+                    "title": {
+                        "es": "Música y Licencia",
+                        "en": "Music and License"
+                    },
+                    "items": [
+                        {
+                            "title": {
+                                "es": "Televisión",
+                                "en": "Television"
+                            },
+                            "content": {
+                                "es": "Tv Contenido en esp",
+                                "en": "Tv Contenido en eng"
+                            }
+                        },
+                        {
+                            "title": {
+                                "es": "Radio",
+                                "en": "Radio"
+                            },
+                            "content": {
+                                "es": "Radio Contenido en esp",
+                                "en": "Radio Contenido en eng"
+                            }
+                        }, ,
+                        {
+                            "title": {
+                                "es": "Cine",
+                                "en": "Cinema"
+                            },
+                            "content": {
+                                "es": "Cine Contenido en esp",
+                                "en": "Cine Contenido en eng"
+                            }
+                        }, ,
+                        {
+                            "title": {
+                                "es": "Teatro",
+                                "en": "Theater"
+                            },
+                            "content": {
+                                "es": "Teatro Contenido en esp",
+                                "en": "Teatro Contenido en eng"
+                            }
+                        },
+                    ]
+                },
+                {
+                    "title": {
+                        "es": "Soundbranding",
+                        "en": "Soundbranding"
+                    },
+                    "items": [
+                        {
+                            "title": {
+                                "es": "Publicidad",
+                                "en": "Commercial"
+                            },
+                            "content": {
+                                "es": "pub contenido",
+                                "en": "pub content"
+                            }
+                        },
+                        {
+                            "title": {
+                                "es": "Juegos",
+                                "en": "Games"
+                            },
+                            "content": {
+                                "es": "games contenido",
+                                "en": "games content"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "otros": {
+            "title": {
+                "es": "Otros servicios",
+                "en": "Other services"
+            },
+            "subcategory": [
+                {
+                    "title": {
+                        "es": "Fonogramas",
+                        "en": "Phonograms"
+                    },
+                    "content": {
+                        "es": "Producción y Administración",
+                        "en": "Production and Administration"
+                    }
+                },
+                {
+                    "title": {
+                        "es": "Partituras",
+                        "en": "Sheet music"
+                    },
+                    "content": {
+                        "es": "Edición, impresión y ventas",
+                        "en": "Editing, printing and sales"
+                    }
+                },
+                {
+                    "title": {
+                        "es": "Editoriales",
+                        "en": "Editorials"
+                    },
+                    "content": {
+                        "es": "Administración, sub-edicion(??) y representación de editoriales musicales",
+                        "en": "Administration, sub-editing(??) and representation of music publishers"
+                    }
+                }
+            ]
+        }
+    },
+    "registros": {
+        "title": {
+            "es": "Registros",
+            "en": "registration"
+        },
+        "items": [
+            {
+                "title": {
+                    "es": "Canciones",
+                    "en": "Songs"
+                },
+                "content": {
+                    "es": [
+                        "Autores y compositores DNDA-SADAIC",
+                        "Intérpretes y ejecutantes AADI",
+                        "Productores Fonográficos CAPIF"
+                    ],
+                    "en": [
+                        "DNDA-SADAIC Authors and Composers",
+                        "AADI Performers and Performers",
+                        "CAPIF Phonographic Producers"
+                    ]
+                }
+            },
+            {
+                "title": {
+                    "es": "Nombre de Banda",
+                    "en": "Band Name"
+                },
+                "content": {
+                    "es": "*/missing*/",
+                    "en": "*/missing*/"
+                }
+            }
+        ]
+    },
+    "distribucion": { 
+        "title": {
+            "es": "Distribuciones Digitales",
+            "en": "Digital Distributions"
+        },
+        "items": [
+            {
+                "content":
+                    { "es": "Audio", "en": "Audio" }
+            },
+            {
+                "content":
+                    { "es": "Video", "en": "Video" }
+            },
+            {
+                "content":
+                    { "es": "Redes Sociales", "en": "Social Media" }
+            }
+        ]
+    },
     "faq": {
         "title": {
             "es": "Preguntas Frecuentes",

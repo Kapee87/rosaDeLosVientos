@@ -1,17 +1,25 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
-import ServicesSection from '../components/ServicesSection'
-import FAQSection from '../components/FAQSection'
-import Footer from '../components/Footer'
+import Editorial from '../components/Editorial'
 import Contact from '../components/Contact'
+import Management from '../components/Management'
+import Performers from '../components/Performers'
+import ScrollToTop from '../components/ScrollToTop'
+import Registration from '../components/Registration'
 
 function Home() {
     return (
-        <div className='px-4'>
+        <div className='px-4 [&_h2]:shadow-xl'>
             <HeroSection />
-            <ServicesSection />
-            <FAQSection />
+            <div className='[&_.card]:rounded-md [&_.card]:shadow-xl'>
+                <Editorial />
+                <Management />
+                <Performers />
+                <Registration />
+            </div>
+
             <Contact />
+            <ScrollToTop />
         </div>
     )
 }

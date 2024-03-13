@@ -1,0 +1,17 @@
+puntos a tener en cuenta:
+Los "títulos" son los nombres de las secciones o como lo manejamos eso?
+La info que va en cada punto la pedimos al gpt o la ponemos luego?
+5 y 6 quedan para fase 2 o 3 cuando armemos el backend.(foco en el mvp)
+Alguna reemplaza el FAQ?
+
+
+requerimientos.
+	Textos sino los gpteamos.
+
+	datos de contacto para que la gente pueda comunicarse (wasap, telefono, email) y redes.
+
+	Sugerir un plan de medios, lo ideal seria tener un@ comunity manager, pero bueno, tambien se puede 	planificar y en base a ese plan de acción generar pequeños contenidos que sirvan de publicidad en una 	forma atractiva y que de alguna forma genere valor en ponteciales clientes.Por ej, generando contenido, minitutoriales, consejos en youtube, instagram, facebook.
+
+	
+
+

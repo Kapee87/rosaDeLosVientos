@@ -4,7 +4,10 @@ import { logo } from '../utils/logo';
 import LanguageSelector from './LanguageSelector';
 import { useLanguage } from '../contexts/languageContext';
 import { texts } from '../utils/allTexts';
-
+const navItem = `text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium
+text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium
+text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium
+text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium`
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,10 +30,18 @@ function Navbar() {
                     </div>
                     <div className="hidden lg:block">
                         <div className=" flex items-center space-x-4">
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{language == 'es' ? texts.navbar.home.en : texts.navbar.home.es} </a>
-                            <a href="#services" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{language == 'es' ? texts.navbar.services.en : texts.navbar.services.es}</a>
-                            <a href="#faq" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{language == 'es' ? texts.navbar.faq.en : texts.navbar.faq.es}</a>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{language == 'es' ? texts.navbar.contact.en : texts.navbar.contact.es}</a>
+                            <a href="#" className={navItem}>{language == 'en' ? texts.navbar.home.en : texts.navbar.home.es} </a>
+                            
+                            <div className="dropdown dropdown-hover">
+                                <div tabIndex={0} role="button" className={navItem} >Editorial</div>
+                                <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><a href='#editorial'>Editorial musical</a></li>
+                                    <li><a href='#management'>Servicios de gestión</a></li>
+                                    <li><a href='#performers' >Para intérpretes</a></li>
+                                </ul>
+                            </div>
+                            <a href="#faq" className={navItem}>{language == 'en' ? texts.navbar.faq.en : texts.navbar.faq.es}</a>
+                            <a href="#contact" className={navItem}>{language == 'en' ? texts.navbar.contact.en : texts.navbar.contact.es}</a>
                             <LanguageSelector />
                             <ThemeSelect />
                         </div>

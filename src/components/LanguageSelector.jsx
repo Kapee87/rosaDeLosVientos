@@ -8,11 +8,11 @@ function LanguageSelector() {
 
     return (
         <div className='flex items-center pe-24 space-x-1'>
-            <img src={eng} alt="bandera de idioma inglés" className='h-5 w-7 rounded-md' />
+            <img src={arg} alt="bandera de idioma argentina" className='h-5 rounded-md' />
             <div className="tooltip tooltip-bottom flex" data-tip={language == 'es' ? 'English' : 'Español'}>
                 <input type="checkbox" className="toggle toggle-sm " onClick={toggleLanguage} />
             </div>
-            <img src={arg} alt="bandera de idioma argentina" className='h-5 rounded-md' />
+            <img src={eng} alt="bandera de idioma inglés" className='h-5 w-7 rounded-md' />
         </div>
     )
 }
