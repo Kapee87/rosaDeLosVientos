@@ -11,7 +11,7 @@ function Home() {
     return (
         <div className='px-4 [&_h2]:shadow-xl'>
             <HeroSection />
-            <div className='[&_.card]:rounded-md [&_.card]:shadow-xl'>
+            <div className='[&_.card]:rounded-md [&_.card]:shadow-xl [&_section]:min-h-screen [&_section]:flex [&_section]:items-center'>
                 <Editorial />
                 <Management />
                 <Performers />

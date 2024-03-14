@@ -10,6 +10,14 @@ export default {
         'hero-bg': "url('https://wepik.com/api/image/ai/9b61cfe5-8cbc-4b58-9855-cde99cb43109')",
       }
     },
+    dropShadow: {
+      'dkModeA': [
+        '5px 3px 5px oklch(var(--p))'
+      ],
+      'dkModeB': [
+        '1px 2px 5px oklch(var(--p))'
+      ],
+    },
   },
   daisyui: {
     themes: [

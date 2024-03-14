@@ -39,7 +39,7 @@ function Performers() {
             <div className="container flex flex-col md:flex-row items-center justify-around gap-10">
                 {/* <h2 className="text-3xl font-bold mb-8"> {language == 'es' ? texts.services.title.es : texts.services.title.en} </h2> */}
                 <h2 className="text-2xl font-bold mb-8"> {language == 'es' ? texts.intepretes.otros.title.es : texts.intepretes.otros.title.en} </h2>
-                <div className=" md:[&_div]:min-h-44 flex gap-2 ">
+                <div className=" md:[&_div]:min-h-44 flex flex-col md:flex-row gap-2 ">
                     {
                         texts.intepretes.otros.subcategory.map(item => (
                             <div className="p-4 bg-base-300 shadow-md card" key={crypto.randomUUID()}>

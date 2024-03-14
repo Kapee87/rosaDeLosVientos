@@ -23,9 +23,9 @@ function ScrollToTop() {
     }, []);
 
     return (
-        <a href="#hero" className='fixed bottom-20 right-36 tooltip' data-tip={language == 'es' ? 'Ir arriba' : 'Scroll to top'} >
+        <a href="#hero" className='fixed bottom-4 right-6 md:bottom-12 md:right-20 tooltip' data-tip={language == 'es' ? 'Ir arriba' : 'Scroll to top'} >
             {showButton ?
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth={1.5} className={`w-10 h-10 fill-secondary stroke-primary-content`}>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" strokeWidth={1.5} className={`w-10 h-10 fill-secondary stroke-primary-content`}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
                 : ''}

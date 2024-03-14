@@ -1,37 +1,50 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ThemeSelect from './ThemeSelect';
-import { logo } from '../utils/logo';
+// import { logo } from '../utils/logo';
+import logo from '../assets/logoL.jpg'
 import LanguageSelector from './LanguageSelector';
 import { useLanguage } from '../contexts/languageContext';
 import { texts } from '../utils/allTexts';
-const navItem = `text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium
-text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium
-text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium
-text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium`
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [showBackground, setShowBackground] = useState(false);
     const { language } = useLanguage();
-    const navLinkClass = 'text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'
+    const navItem = `hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium ${showBackground ? '!text-primary' : 'text-gray-300'}`
+    const TOP_OFFSET = 50;
+
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY >= TOP_OFFSET) {
+                setShowBackground(true)
+            } else {
+                setShowBackground(false)
+            }
+        }
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+
     return (
-        <nav>
+        <nav className={`sticky top-0 w-full z-50  bg-opacity-80 ${showBackground ? 'bg-base-100 shadow-lg text-primary' : ''} `} >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-16 ">
-                    <div className='flex md:justify-between items-center gap-0 md:gap-4 '>
-                        <div className="h-14 rounded-lg overflow-hidden">
-                            <img className="h-20 -mt-2 " src={logo} alt="La Rosa De Los Vientos" />
+                <div className="flex items-center justify-between h-16 py-4 ">
+                    <div className={`flex md:justify-between items-center gap-0 md:gap-4 ${showBackground ? '[&_h2]:!text-primary' : 'text-gray-300'}`}>
+                        <div className="mask mask-circle">
+                            <img className="image-full h-14" src={logo} alt="Logo de La Rosa De Los Vientos" />
                         </div>
                         <h2 className={`font-bold pe-[1vw] sm:pe-[30vw] lg:pe-0 ${isMenuOpen ? 'text-primary' : 'text-neutral-content'}`}>La Rosa de Los Vientos</h2>
                     </div>
                     <div className="hidden lg:block">
                         <div className=" flex items-center space-x-4">
                             <a href="#" className={navItem}>{language == 'en' ? texts.navbar.home.en : texts.navbar.home.es} </a>
-                            
                             <div className="dropdown dropdown-hover">
                                 <div tabIndex={0} role="button" className={navItem} >Editorial</div>
                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
@@ -61,10 +74,17 @@ function Navbar() {
             </div>
             <div className={`${isMenuOpen ? 'block' : 'hidden'} lg:hidden`} id="mobile-menu">
                 <div className="px-2 pt-2 pb-16 space-y-1 sm:px-3 flex flex-col items-center ">
-                    <a href="#" className={navLinkClass}>{language == 'es' ? texts.navbar.home.en : texts.navbar.home.es} </a>
-                    <a href="#" className={navLinkClass}>{language == 'es' ? texts.navbar.services.en : texts.navbar.services.es}</a>
-                    <a href="#" className={navLinkClass}>{language == 'es' ? texts.navbar.faq.en : texts.navbar.faq.es}</a>
-                    <a href="#" className={navLinkClass}>{language == 'es' ? texts.navbar.contact.en : texts.navbar.contact.es}</a>
+                    <a href="#" className={navItem}>{language == 'en' ? texts.navbar.home.en : texts.navbar.home.es} </a>
+                    <details className="collapse collapse-arrow">
+                        <summary tabIndex={0} role="button" className={`text-center ${navItem} collapse-title`} >Editorial </summary>
+                        <ul tabIndex={0} className="collapse-content z-[1] menu p-2 shadow bg-base-100 rounded-box justify-center items-center">
+                            <li><a href='#editorial'>Editorial musical</a></li>
+                            <li><a href='#management'>Servicios de gestión</a></li>
+                            <li><a href='#performers' >Para intérpretes</a></li>
+                        </ul>
+                    </details>
+                    <a href="#faq" className={navItem}>{language == 'en' ? texts.navbar.faq.en : texts.navbar.faq.es}</a>
+                    <a href="#contact" className={navItem}>{language == 'en' ? texts.navbar.contact.en : texts.navbar.contact.es}</a>
                     <div className='flex flex-wrap justify-center self-end w-full'>
                         <LanguageSelector />
                         <ThemeSelect />
