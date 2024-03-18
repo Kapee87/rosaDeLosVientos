@@ -12,7 +12,7 @@ function Editorial() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 place-items-center md:[&_div]:min-h-44 ">
                     {
                         texts.editorial.items.map(item => (
-                            <div className="p-4 bg-base-300 shadow-md card" key={crypto.randomUUID()}>
+                            <div className="p-4 bg-base-300 shadow-md card cardMin" key={crypto.randomUUID()}>
                                 <h3 className="text-xl drop-shadow-2xl font-bold mb-2 ">{language == 'es' ? item.title.es : item.title.en}</h3>
                                 <p className=''>{language == 'es' ? item.content.es : item.content.en}</p>
                             </div>

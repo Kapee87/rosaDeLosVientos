@@ -21,43 +21,15 @@ export const texts = {
             "en": "Theme"
         }
     },
-    "services": {
+    "hero": {
         "title": {
-            "es": "Nuestros Servicios",
-            "en": "Our Services"
+            "es": "Tu editorial musical",
+            "en": "Your Musical Editorial"
         },
-        "items": [
-            {
-                "title": {
-                    "es": "Registro de Canciones y Artistas",
-                    "en": "Songs and Artists Registration"
-                },
-                "content": {
-                    "es": "Te ayudamos a registrar tus obras y a proteger tus derechos como creador.",
-                    "en": "We help you register your works and protect your rights as a creator."
-                }
-            },
-            {
-                "title": {
-                    "es": "Asistencia Administrativa",
-                    "en": "Administrative Assistance"
-                },
-                "content": {
-                    "es": "Nos encargamos del seguimiento administrativo de tus obras para garantizar su protección y cobro por su uso.",
-                    "en": "We take care of the administrative follow-up of your works to ensure their protection and payment for their use."
-                }
-            },
-            {
-                "title": {
-                    "es": "Gestión de Derechos de Autor",
-                    "en": "Copyright Management"
-                },
-                "content": {
-                    "es": "Administramos los derechos de autor y reclamamos en caso de uso indebido de tus creaciones musicales.",
-                    "en": "We manage copyright and claim in case of misuse of your musical creations."
-                }
-            }
-        ]
+        "slogan": {
+            "es": "Navegando los mares de la música, protegiendo tus creaciones",
+            "en": "Navigating the seas of music, protecting your creations"
+        }
     },
     "editorial": {
         "title": {
@@ -71,8 +43,8 @@ export const texts = {
                     "en": "Functions"
                 },
                 "content": {
-                    "es": "Funciones Contenido en esp",
-                    "en": "Funciones Contenido en eng"
+                    "es": "Ofrecemos servicios para la gestión y protección de obras musicales, incluyendo registro de derechos de autor, asesoramiento legal y representación ante instituciones musicales.",
+                    "en": "We offer services for the management and protection of musical works, including copyright registration, legal advice, and representation before music institutions."
                 }
             },
             {
@@ -81,30 +53,30 @@ export const texts = {
                     "en": "Jobs"
                 },
                 "content": {
-                    "es": "Tareas Contenido en esp",
-                    "en": "Tareas Contenido en eng"
+                    "es": "Realizamos diversas tareas administrativas relacionadas con la gestión de derechos de autor, como seguimiento de regalías, licencias y contratos.",
+                    "en": "We perform various administrative tasks related to copyright management, such as royalty tracking, licensing, and contracts."
                 }
-            }, ,
+            },
             {
                 "title": {
                     "es": "Instituciones",
                     "en": "Institutions"
                 },
                 "content": {
-                    "es": "Instituciones Contenido en esp",
-                    "en": "Instituciones Contenido en eng"
+                    "es": "Colaboramos con diversas instituciones del ámbito musical para promover y proteger los derechos de los artistas y compositores.",
+                    "en": "We collaborate with various music institutions to promote and protect the rights of artists and composers."
                 }
-            }, ,
+            },
             {
                 "title": {
                     "es": "Asesoramiento",
                     "en": "Counseling"
                 },
                 "content": {
-                    "es": "Asesoramiento Contenido en esp",
-                    "en": "Asesoramiento Contenido en eng"
+                    "es": " Proporcionamos asesoramiento experto en todos los aspectos legales y administrativos relacionados con la industria musical.",
+                    "en": "We provide expert advice on all legal and administrative aspects related to the music industry."
                 }
-            },
+            }
         ]
     },
     "gestion": {
@@ -119,8 +91,8 @@ export const texts = {
                     "en": "Registration"
                 },
                 "content": {
-                    "es": "Registros Contenido en esp",
-                    "en": "Registros Contenido en eng"
+                    "es": " Nos encargamos del registro y la documentación necesaria para proteger los derechos de autor de las obras musicales, así como de su distribución y comercialización.",
+                    "en": "We take care of the registration and documentation necessary to protect the copyright of musical works, as well as their distribution and commercialization."
                 }
             },
             {
@@ -129,28 +101,28 @@ export const texts = {
                     "en": "Protection"
                 },
                 "content": {
-                    "es": "Proteccion Contenido en esp",
-                    "en": "Proteccion Contenido en eng"
+                    "es": "Implementamos medidas para proteger los derechos de autor de nuestros clientes y garantizar su cumplimiento en todos los ámbitos de la industria musical.",
+                    "en": "We implement measures to protect the copyright of our clients and ensure its compliance in all areas of the music industry."
                 }
-            }, ,
+            },
             {
                 "title": {
                     "es": "Recaudación",
                     "en": "Royalty Collection"
                 },
                 "content": {
-                    "es": "Recaudación Contenido en esp",
-                    "en": "Recaudación Contenido en eng"
+                    "es": "Gestionamos la recaudación de regalías y derechos de autor de manera eficiente y transparente, asegurando que los creadores reciban la compensación adecuada por su trabajo.",
+                    "en": "We manage the collection of royalties and copyright fees efficiently and transparently, ensuring that creators receive appropriate compensation for their work."
                 }
-            }, ,
+            },
             {
                 "title": {
                     "es": "Administración",
                     "en": "Management"
                 },
                 "content": {
-                    "es": "Administración Contenido en esp",
-                    "en": "Administración Contenido en eng"
+                    "es": "Brindamos servicios de administración integral para artistas y compositores, incluyendo gestión financiera, fiscal y legal.",
+                    "en": "We provide comprehensive administrative services for artists and composers, including financial, tax, and legal management."
                 }
             },
             {
@@ -159,8 +131,8 @@ export const texts = {
                     "en": "Exploitation"
                 },
                 "content": {
-                    "es": "Explotación Contenido en esp",
-                    "en": "Explotación Contenido en eng"
+                    "es": "Maximizamos el potencial comercial de las obras musicales a través de estrategias de promoción, licenciamiento y explotación en diferentes medios y plataformas.",
+                    "en": "We maximize the commercial potential of musical works through promotion, licensing, and exploitation strategies in different media and platforms."
                 }
             },
             {
@@ -169,10 +141,10 @@ export const texts = {
                     "en": "Advertising"
                 },
                 "content": {
-                    "es": "Promoción Contenido en esp",
-                    "en": "Promoción Contenido en eng"
+                    "es": "Diseñamos y ejecutamos campañas de promoción y marketing para aumentar la visibilidad y el alcance de las obras musicales de nuestros clientes.",
+                    "en": "We design and execute promotion and marketing campaigns to increase the visibility and reach of our clients' musical works."
                 }
-            },
+            }
         ]
     },
     "intepretes": {
@@ -197,9 +169,10 @@ export const texts = {
                                 "es": "Televisión",
                                 "en": "Television"
                             },
+                            "icon": "📺",
                             "content": {
-                                "es": "Tv Contenido en esp",
-                                "en": "Tv Contenido en eng"
+                                "es": "Facilitamos la licencia de obras musicales para programas de televisión, series, comerciales y otras producciones audiovisuales, garantizando una compensación adecuada por el uso de material protegido por derechos de autor.",
+                                "en": "We facilitate the licensing of musical works for television programs, series, commercials, and other audiovisual productions, ensuring proper compensation for the use of copyrighted material."
                             }
                         },
                         {
@@ -207,31 +180,34 @@ export const texts = {
                                 "es": "Radio",
                                 "en": "Radio"
                             },
+                            "icon": "📻",
                             "content": {
-                                "es": "Radio Contenido en esp",
-                                "en": "Radio Contenido en eng"
+                                "es": "Gestionamos la sincronización de música con emisiones radiofónicas, incluyendo la difusión en el aire, jingles y anuncios promocionales, para mejorar la identidad de marca y la participación del público.",
+                                "en": "We manage the synchronization of music with radio broadcasts, including airplay, jingles, and promotional spots, to enhance brand identity and audience engagement."
                             }
-                        }, ,
+                        },
                         {
                             "title": {
                                 "es": "Cine",
                                 "en": "Cinema"
                             },
+                            "icon": "🎥",
                             "content": {
-                                "es": "Cine Contenido en esp",
-                                "en": "Cine Contenido en eng"
+                                "es": "Nos encargamos de la licencia de música para películas, documentales y otras producciones cinematográficas, proporcionando soluciones personalizadas para satisfacer las necesidades creativas y presupuestarias de los cineastas.",
+                                "en": "We handle the licensing of music for films, documentaries, and other cinematic productions, providing customized solutions to meet the creative and budgetary needs of filmmakers."
                             }
-                        }, ,
+                        },
                         {
                             "title": {
                                 "es": "Teatro",
                                 "en": "Theater"
                             },
+                            "icon": "🎭",
                             "content": {
-                                "es": "Teatro Contenido en esp",
-                                "en": "Teatro Contenido en eng"
+                                "es": " Asistimos en la sincronización de música con representaciones teatrales, incluyendo producciones teatrales, musicales y eventos en vivo, para mejorar la narrativa y el impacto emocional.",
+                                "en": "We assist in the synchronization of music with theatrical performances, including stage productions, musicals, and live events, to enhance storytelling and emotional impact."
                             }
-                        },
+                        }
                     ]
                 },
                 {
@@ -245,9 +221,10 @@ export const texts = {
                                 "es": "Publicidad",
                                 "en": "Commercial"
                             },
+                            "icon": "💡",
                             "content": {
-                                "es": "pub contenido",
-                                "en": "pub content"
+                                "es": " Nos especializamos en crear identidades sonoras personalizadas para marcas y campañas publicitarias, aprovechando la música y los efectos de sonido para mejorar el reconocimiento de la marca, la participación del consumidor y la memorabilidad.",
+                                "en": "We assist in the synchronization of music with theatrical performances, including stage productions, musicals, and live events, to enhance storytelling and emotional impact."
                             }
                         },
                         {
@@ -255,9 +232,10 @@ export const texts = {
                                 "es": "Juegos",
                                 "en": "Games"
                             },
+                            "icon": "🎮",
                             "content": {
-                                "es": "games contenido",
-                                "en": "games content"
+                                "es": "Ofrecemos servicios de soundbranding para videojuegos y medios interactivos, diseñando experiencias de audio inmersivas que complementan la jugabilidad y mejoran la inmersión y el disfrute del jugador.",
+                                "en": "We provide sound branding services for video games and interactive media, designing immersive audio experiences that complement gameplay and enhance player immersion and enjoyment."
                             }
                         }
                     ]
@@ -276,18 +254,18 @@ export const texts = {
                         "en": "Phonograms"
                     },
                     "content": {
-                        "es": "Producción y Administración",
-                        "en": "Production and Administration"
+                        "es": "Ofrecemos servicios de producción y administración de fonogramas, facilitando la grabación, distribución y promoción de material sonoro.",
+                        "en": "We offer production and administration services for phonograms, facilitating the recording, distribution, and promotion of sound material."
                     }
                 },
                 {
                     "title": {
                         "es": "Partituras",
-                        "en": "Sheet music"
+                        "en": "Sheet Music"
                     },
                     "content": {
-                        "es": "Edición, impresión y ventas",
-                        "en": "Editing, printing and sales"
+                        "es": "Nos encargamos de la edición, impresión y venta de partituras musicales, facilitando el acceso a material de estudio y ejecución para músicos y estudiantes.",
+                        "en": " We take care of the editing, printing, and sale of music scores, providing access to study and performance material for musicians and students."
                     }
                 },
                 {
@@ -296,8 +274,8 @@ export const texts = {
                         "en": "Editorials"
                     },
                     "content": {
-                        "es": "Administración, sub-edicion(??) y representación de editoriales musicales",
-                        "en": "Administration, sub-editing(??) and representation of music publishers"
+                        "es": "Proporcionamos servicios de administración, sub-edición y representación de editoriales musicales, colaborando en la promoción y difusión de su catálogo de obras.",
+                        "en": "We provide services for the administration, sub-editing, and representation of music publishers, collaborating in the promotion and dissemination of their catalog of works."
                     }
                 }
             ]
@@ -306,7 +284,7 @@ export const texts = {
     "registros": {
         "title": {
             "es": "Registros",
-            "en": "registration"
+            "en": "Registration"
         },
         "items": [
             {
@@ -339,7 +317,7 @@ export const texts = {
             }
         ]
     },
-    "distribucion": { 
+    "distribucion": {
         "title": {
             "es": "Distribuciones Digitales",
             "en": "Digital Distributions"
@@ -410,15 +388,5 @@ export const texts = {
     "contact": {
         "es": "Contacto",
         "en": "Contact"
-    },
-    "hero": {
-        "title": {
-            "es": "Tu editorial musical",
-            "en": "Your Musical Editorial"
-        },
-        "slogan": {
-            "es": "Navegando los mares de la música, protegiendo tus creaciones",
-            "en": "Navigating the seas of music, protecting your creations"
-        }
     }
 }

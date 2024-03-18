@@ -9,9 +9,9 @@ import Registration from '../components/Registration'
 
 function Home() {
     return (
-        <div className='px-4 [&_h2]:shadow-xl'>
+        <div className='px-4 [&_h2]:drop-shadow-dkModeB'>
             <HeroSection />
-            <div className='[&_.card]:rounded-md [&_.card]:shadow-xl [&_section]:min-h-screen [&_section]:flex [&_section]:items-center'>
+            <div className='[&_.card]:rounded-md [&_.card]:shadow-xl [&_.cardMin]:min-h-64 [&_section]:min-h-screen [&_section]:flex [&_section]:items-center px-20'>
                 <Editorial />
                 <Management />
                 <Performers />
