@@ -4,13 +4,28 @@ export const texts = {
             "es": "Inicio",
             "en": "Home"
         },
-        "services": {
-            "es": "Servicios",
-            "en": "Services"
+        "editorial": {
+            "es": "Editorial",
+            "en": "Editorial",
+            "sub": {
+                "editorial": {
+                    "es": "Editorial Musical",
+                    "en": "Music Publishing"
+                },
+                "gestion": {
+                    "es": "Servicios de gestión",
+                    "en": "Management services"
+                },
+                "interpretes": {
+                    "es": "Para intérpretes",
+                    "en": "For Performers"
+                }
+            }
+
         },
-        "faq": {
-            "es": "FAQ",
-            "en": "FAQ"
+        "registration": {
+            "es": "Registro",
+            "en": "Reistration"
         },
         "contact": {
             "es": "Contacto",
@@ -292,18 +307,38 @@ export const texts = {
                     "es": "Canciones",
                     "en": "Songs"
                 },
-                "content": {
-                    "es": [
-                        "Autores y compositores DNDA-SADAIC",
-                        "Intérpretes y ejecutantes AADI",
-                        "Productores Fonográficos CAPIF"
-                    ],
-                    "en": [
-                        "DNDA-SADAIC Authors and Composers",
-                        "AADI Performers and Performers",
-                        "CAPIF Phonographic Producers"
-                    ]
-                }
+                "subItems": [
+                    {
+                        "title": {
+                            "es": "Autores y compositores DNDA-SADAIC",
+                            "en": "DNDA-SADAIC Authors and Composers"
+                        },
+                        "content": {
+                            "es": "Nos encargamos de registrar las obras musicales creadas por autores y compositores en DNDA-SADAIC, asegurando la protección legal de sus derechos de autor y gestionando las regalías correspondientes por su uso.",
+                            "en": "We take care of registering musical works created by authors and composers in DNDA-SADAIC, ensuring the legal protection of their copyright and managing the corresponding royalties for their use."
+                        },
+                    },
+                    {
+                        "title": {
+                            "es": "Intérpretes y ejecutantes AADI",
+                            "en": "AADI Performers and Performers"
+                        },
+                        "content": {
+                            "es": "Facilitamos el registro de intérpretes y ejecutantes en AADI, garantizando la protección de sus interpretaciones y presentaciones en eventos en vivo, grabaciones y otros medios de difusión.",
+                            "en": "We facilitate the registration of performers and performers in AADI, guaranteeing the protection of their interpretations and performances in live events, recordings, and other broadcasting media."
+                        },
+                    },
+                    {
+                        "title": {
+                            "es": "Productores Fonográficos CAPIF",
+                            "en": "CAPIF Phonographic Producers"
+                        },
+                        "content": {
+                            "es": "Realizamos el registro de productores fonográficos en CAPIF, asegurando la documentación adecuada para la producción y distribución de grabaciones musicales, así como la gestión de derechos y regalías asociadas.",
+                            "en": "We register phonographic producers in CAPIF, ensuring the proper documentation for the production and distribution of musical recordings, as well as the management of associated rights and royalties."
+                        },
+                    }
+                ]
             },
             {
                 "title": {
@@ -311,8 +346,8 @@ export const texts = {
                     "en": "Band Name"
                 },
                 "content": {
-                    "es": "*/missing*/",
-                    "en": "*/missing*/"
+                    "es": "Ayudamos en el registro y protección legal de nombres de banda, garantizando la exclusividad de uso y evitando conflictos de nombres con otras entidades. Este servicio proporciona seguridad y reconocimiento a las agrupaciones musicales en la industria.",
+                    "en": "We assist in the registration and legal protection of band names, ensuring the exclusive use and avoiding conflicts of names with other entities. This service provides security and recognition to musical groups in the industry."
                 }
             }
         ]
@@ -324,16 +359,28 @@ export const texts = {
         },
         "items": [
             {
-                "content":
-                    { "es": "Audio", "en": "Audio" }
+                "title":
+                    { "es": "Audio", "en": "Audio" },
+                "content": {
+                    "es": "Facilitamos la distribución digital de tus pistas de audio a través de plataformas líderes en la industria, asegurando que tu música llegue a una amplia audiencia en todo el mundo. Con nuestra experiencia y red de distribución, maximizamos la visibilidad y el alcance de tus creaciones sonoras.",
+                    "en": "We facilitate the digital distribution of your audio tracks through leading platforms in the industry, ensuring that your music reaches a wide audience worldwide. With our expertise and distribution network, we maximize the visibility and reach of your sound creations."
+                }
             },
             {
-                "content":
-                    { "es": "Video", "en": "Video" }
+                "title":
+                    { "es": "Video", "en": "Video" },
+                "content": {
+                    "es": "Gestionamos la distribución digital de tus videos musicales en plataformas de video populares, permitiendo que tu contenido visual se comparta y se disfrute ampliamente. Desde YouTube hasta Vimeo, nos aseguramos de que tus videos lleguen a tus fans y seguidores de manera efectiva.",
+                    "en": "We manage the digital distribution of your music videos on popular video platforms, allowing your visual content to be widely shared and enjoyed. From YouTube to Vimeo, we ensure that your videos reach your fans and followers effectively."
+                }
             },
             {
-                "content":
-                    { "es": "Redes Sociales", "en": "Social Media" }
+                "title":
+                    { "es": "Redes Sociales", "en": "Social Media" },
+                "content": {
+                    "es": "Optimizamos la presencia de tu música en las redes sociales, asegurando una distribución efectiva a través de plataformas como Facebook, Instagram, Twitter y más. Con estrategias de promoción específicas para cada plataforma, aumentamos la visibilidad y el compromiso con tu audiencia.",
+                    "en": "We optimize your music presence on social media, ensuring effective distribution across platforms like Facebook, Instagram, Twitter, and more. With platform-specific promotion strategies, we increase visibility and engagement with your audience."
+                }
             }
         ]
     },

@@ -11,6 +11,10 @@
         /* Duración y repetición de la animación */
 }
 
+.floatClass {
+    animation: floatAnimation 50s linear infinite;
+    background-blend-mode: exclusion
+}
 
 @keyframes slideBackground {
     0% {
@@ -36,5 +40,19 @@
     100% {
         background-position: center;
         /* Posición inicial del fondo */
+    }
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateX(-50vw);
+    }
+
+    50% {
+        transform: translateX(25vw);
+    }
+
+    100% {
+        transform: translateX(-50vw);
     }
 }

@@ -48,12 +48,12 @@ function Navbar() {
                             <div className="dropdown dropdown-hover">
                                 <div tabIndex={0} role="button" className={navItem} >Editorial</div>
                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a href='#editorial'>Editorial musical</a></li>
-                                    <li><a href='#management'>Servicios de gestión</a></li>
-                                    <li><a href='#performers' >Para intérpretes</a></li>
+                                    <li><a href='#editorial'>{language == 'es' ? texts.navbar.editorial.sub.editorial.es : texts.navbar.editorial.sub.editorial.en}</a></li>
+                                    <li><a href='#management'>{language == 'es' ? texts.navbar.editorial.sub.gestion.es : texts.navbar.editorial.sub.gestion.en}</a></li>
+                                    <li><a href='#performers'>{language == 'es' ? texts.navbar.editorial.sub.interpretes.es : texts.navbar.editorial.sub.interpretes.en}</a></li>
                                 </ul>
                             </div>
-                            <a href="#faq" className={navItem}>{language == 'en' ? texts.navbar.faq.en : texts.navbar.faq.es}</a>
+                            <a href="#registration" className={navItem}>{language == 'en' ? texts.navbar.registration.en : texts.navbar.registration.es}</a>
                             <a href="#contact" className={navItem}>{language == 'en' ? texts.navbar.contact.en : texts.navbar.contact.es}</a>
                             <LanguageSelector />
                             <ThemeSelect />
@@ -78,12 +78,12 @@ function Navbar() {
                     <details className="collapse collapse-arrow">
                         <summary tabIndex={0} role="button" className={`text-center ${navItem} collapse-title`} >Editorial </summary>
                         <ul tabIndex={0} className="collapse-content z-[1] menu p-2 shadow bg-base-100 rounded-box justify-center items-center">
-                            <li><a href='#editorial'>Editorial musical</a></li>
-                            <li><a href='#management'>Servicios de gestión</a></li>
-                            <li><a href='#performers' >Para intérpretes</a></li>
+                            <li><a href='#editorial'>{language == 'es' ? texts.navbar.editorial.sub.editorial.es : texts.navbar.editorial.sub.editorial.en}</a></li>
+                            <li><a href='#management'>{language == 'es' ? texts.navbar.editorial.sub.gestion.es : texts.navbar.editorial.sub.gestion.en}</a></li>
+                            <li><a href='#performers'>{language == 'es' ? texts.navbar.editorial.sub.interpretes.es : texts.navbar.editorial.sub.interpretes.en}</a></li>
                         </ul>
                     </details>
-                    <a href="#faq" className={navItem}>{language == 'en' ? texts.navbar.faq.en : texts.navbar.faq.es}</a>
+                    <a href="#registration" className={navItem}>{language == 'en' ? texts.navbar.registration.en : texts.navbar.registration.es}</a>
                     <a href="#contact" className={navItem}>{language == 'en' ? texts.navbar.contact.en : texts.navbar.contact.es}</a>
                     <div className='flex flex-wrap justify-center self-end w-full'>
                         <LanguageSelector />
