@@ -39,7 +39,7 @@ function AnimatedBackground() {
     }, []);
 
     return (
-        <span className="h-[110vh] w-full fixed top-0 left-0 -z-10">
+        <span className="h-[110vh] md:w-full fixed top-0 left-0 -z-10">
             {icons.map((icon, index) => (
                 <span
                     className="absolute floatClass duration-1000 text-4xl opacity-20"

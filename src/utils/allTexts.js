@@ -29,7 +29,7 @@ export const texts = {
         },
         "contact": {
             "es": "Contacto",
-            "en": "Contact"
+            "en": "Contact",
         },
         "theme": {
             "es": "Tema",
@@ -434,6 +434,24 @@ export const texts = {
     },
     "contact": {
         "es": "Contacto",
-        "en": "Contact"
+        "en": "Contact",
+        "nameInput": {
+            "title": {
+                "es": "Nombre",
+                "en": "Name",
+            }
+        },
+        "mailInput": {
+            "title": {
+                "es": "Correo electrónico",
+                "en": "E-mail",
+            },
+        },
+        "msgInput": {
+            "title": {
+                "es": "Mensaje",
+                "en": "Message",
+            }
+        }
     }
 }

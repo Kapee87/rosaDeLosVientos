@@ -12,7 +12,7 @@ function Performers() {
                 </h2>
             </div>
             <div className="container flex flex-col md:flex-row items-center justify-evenly gap-10">
-                <h2 className="card text-2xl font-bold mb-8 order-2 h-screen px-4 bg-base-300 justify-center "> {language == 'es' ? texts.intepretes.sincronizacion.title.es : texts.intepretes.sincronizacion.title.en} </h2>
+                <h2 className="card text-2xl font-bold mb-8 md:order-2 md:h-screen p-3 md:p-0 md:px-4 bg-base-300 justify-center "> {language == 'es' ? texts.intepretes.sincronizacion.title.es : texts.intepretes.sincronizacion.title.en} </h2>
                 <div className=" flex flex-col gap-5 md:[&_div]:min-h-44 ">
                     {
                         texts.intepretes.sincronizacion.subcategory.map(item => (
