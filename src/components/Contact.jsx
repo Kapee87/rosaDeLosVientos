@@ -33,8 +33,9 @@ function Contact() {
                 publicKey:'fczRYMXThVJ6sgtRo'
             })
             .then(
-                () => {
+                (res) => {
                     console.log('SUCCESS!');
+                    console.log(res.data);
                     setFormAlert({ "show": true, "msj": "El mensaje fue enviado correctamente", "success": true })
                     const timeout = setTimeout(() => {
                         setFormAlert({ "show": false, "msj": "", "success": false })
