@@ -29,7 +29,7 @@ function Contact() {
         }
 
         emailjs
-            .sendForm('service_i2xqq3p', 'template_tvt7pod', form.current, {
+            .sendForm('service_8c4cl0e', 'template_tvt7pod', form.current, {
                 publicKey:'fczRYMXThVJ6sgtRo'
             })
             .then(
