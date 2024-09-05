@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { useLanguage } from '../contexts/languageContext'
 import { texts } from '../utils/allTexts'
 import emailjs from '@emailjs/browser';
@@ -29,8 +29,8 @@ function Contact() {
         }
 
         emailjs
-            .sendForm('service_pb29py7', 'template_tvt7pod', form.current, {
-                publicKey: 'bxoZpy2LffjHdsRdA',
+            .sendForm('service_i2xqq3p', 'template_tvt7pod', form.current, {
+                publicKey:'fczRYMXThVJ6sgtRo'
             })
             .then(
                 () => {
